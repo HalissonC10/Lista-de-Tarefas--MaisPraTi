@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Web development, HTLM, CSS e javascript">
+        <meta name= "author" content="Halisson">
+        <meta name="description" content="Este site é para treinamento de desenvolvimento web">
+        <title>Página Principal</title>
+
+        <style>
+            h1 {
+                color:red;
+                font-size: 50px;
+            }
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            a :visited{
+                color: blueviolet
+            }
+
+            a:hover{
+                color: #red;
+                text-decoration: none;
+                background-color: #6d6d6d;
+            }
+
+            a:active{
+                color: black;
+            }
+
+            p{
+                background-color: black;
+                color: white;
+                text-align: justify;
+                letter-spacing: normal;
+                word-spacing: 20px;
+                text-transform: uppercase;
+            }
+
+            ul{
+                list-style-type: none;
+                border: 1px solid #000;
+                margin-bottom: 50px;
+            }
+
+            li{
+                margin-bottom: 10px;
+            }
+
+            ol{
+                list-style-type: upper-alpha;
+                border: 1px solid black;
+                padding-top: 10px;
+            }
+
+            table{
+                border: 2px solid;
+                width: 100%;
+                text-align: center;
+            }
+
+            td, th {
+                border: 1px solid orange;
+            }
+        </style>
+    </head>
+<body>
+   <nav>
+        <a href="https://www.google.com">Pagina Principal</a>
+        <a href="sobre-nos.html">Sobre nós</a>
+   </nav> 
+
+   <header>
+    <h1> Bem vindo ao nosso site</h1>  
+    <h2 style="color: blue;"> Bem vindo ao nosso site</h2>
+    <h3> Bem vindo ao nosso site</h3>
+   </header>
+   <hr>
+
+    <section>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore saepe ad reiciendis suscipit hic, voluptates aliquam nemo impedit eaque ratione qui excepturi numquam. Expedita ad deserunt, corrupti doloremque magnam est!
+        </p>
+
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore saepe ad reiciendis suscipit hic, voluptates aliquam nemo impedit eaque ratione qui excepturi numquam. Expedita ad deserunt, corrupti doloremque magnam est!
+        </p>
+
+        <p>
+            Formula Química: H<sub>2</sub>0
+            Exemplo Expoente: X<sup>2</sup>
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <p>Uma <abbr title="Aplication Programmin Interface">Api</abbr>permite que diversos softwares se comuniquem</p>
+        <blockquote cite="https://www.google.com">
+            O google é um otimo navegador
+        </blockquote>
+
+        <p>
+            <cite>O halisson é lindo demais</cite> Isso é verdade
+        </p>
+
+        <p> Este texto serve para usar a tag q <q> que cita e fica nesse formato</q></p>
+        <p>Da <strong> Ênfase</strong> na plavra ênfase </p>
+        <p>Da <em> Ênfase</em> na plavra ênfase </p>
+        <p>Da <u> Ênfase</u> na plavra ênfase </p>
+        <p>Da <s> Ênfase</s> na plavra ênfase </p>
+    </section>
+   
+    <hr>
+
+    <section>
+        <h3> Navegação do Site</h3>
+
+        <ul>
+            <li> Página Principal</li>
+            <li> Sobre nós</li>
+            <li> Newsletter</li>
+        </ul>
+
+        <h2>FAQ</h2>
+        <ol>
+            <li>O que é html?</li>
+            <li>Como o css funciona?</li>
+            <li>Para que serve o JS?</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section>
+        <table>
+            <tr> 
+                <th>Produto</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td> Notebook</td>
+                <td> Notebook Gamer com rtx 4070</td>
+                <td> 2000</td>
+            </tr>
+            <tr>
+                <td> Playstation</td>
+                <td> Console para jogos</td>
+                <td> 3000</td>
+            </tr>
+            <tr>
+                <td> Bicicleta</td>
+                <td> Caloi aro 15</td>
+                <td> 800</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total: R$ 5800</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Login</h2>
+        <form>
+            <label for="nomeUsuário">Nome de Usuário:</label>
+            <input type="text">
+
+            <br><br>
+        
+            <label for="senha">Senha:</label>
+            <input type="password">
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2> Rodapé da Página</h2>
+        &lt;Aprendendo HTML &gt;
+        <p>Desenvolvido por &copy;Halisson</p>
+    </section>
+</body>
+</html>
